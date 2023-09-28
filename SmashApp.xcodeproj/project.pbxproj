@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A726204C2A982AFE000CA2E0 /* UltimateHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A726204B2A982AFE000CA2E0 /* UltimateHome.swift */; };
+		A75B652F2A9CFB2600DB725E /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B652E2A9CFB2600DB725E /* GameCardView.swift */; };
+		A75B65392A9CFED000DB725E /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B65382A9CFED000DB725E /* GameData.swift */; };
+		A75B653B2A9E40BF00DB725E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B653A2A9E40BF00DB725E /* Theme.swift */; };
 		A771784E2A95417D008A2535 /* SmashAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771784D2A95417D008A2535 /* SmashAppApp.swift */; };
 		A77178502A95417D008A2535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771784F2A95417D008A2535 /* ContentView.swift */; };
 		A77178522A954180008A2535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77178512A954180008A2535 /* Assets.xcassets */; };
 		A77178552A954180008A2535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77178542A954180008A2535 /* Preview Assets.xcassets */; };
+		A771785C2A9541BC008A2535 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771785B2A9541BC008A2535 /* HomePage.swift */; };
+		A78EF31D2AA9463E00CBE686 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78EF31C2AA9463E00CBE686 /* Profile.swift */; };
+		A78EF31F2AA9488C00CBE686 /* UltimateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78EF31E2AA9488C00CBE686 /* UltimateProfile.swift */; };
+		A7B5799F2AB626000063F2AF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B5799E2AB626000063F2AF /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A726204B2A982AFE000CA2E0 /* UltimateHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateHome.swift; sourceTree = "<group>"; };
+		A75B652E2A9CFB2600DB725E /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
+		A75B65382A9CFED000DB725E /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		A75B653A2A9E40BF00DB725E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		A771784A2A95417D008A2535 /* SmashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A771784D2A95417D008A2535 /* SmashAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashAppApp.swift; sourceTree = "<group>"; };
 		A771784F2A95417D008A2535 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A77178512A954180008A2535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77178542A954180008A2535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A771785B2A9541BC008A2535 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		A78EF31C2AA9463E00CBE686 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A78EF31E2AA9488C00CBE686 /* UltimateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateProfile.swift; sourceTree = "<group>"; };
+		A7B5799E2AB626000063F2AF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A75B65372A9CFED000DB725E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A75B65382A9CFED000DB725E /* GameData.swift */,
+				A75B653A2A9E40BF00DB725E /* Theme.swift */,
+				A78EF31C2AA9463E00CBE686 /* Profile.swift */,
+				A78EF31E2AA9488C00CBE686 /* UltimateProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A75B653C2A9E419A00DB725E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A771784F2A95417D008A2535 /* ContentView.swift */,
+				A75B652E2A9CFB2600DB725E /* GameCardView.swift */,
+				A771785B2A9541BC008A2535 /* HomePage.swift */,
+				A726204B2A982AFE000CA2E0 /* UltimateHome.swift */,
+				A7B5799E2AB626000063F2AF /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A77178412A95417D008A2535 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				A771784D2A95417D008A2535 /* SmashAppApp.swift */,
-				A771784F2A95417D008A2535 /* ContentView.swift */,
-				A77178512A954180008A2535 /* Assets.xcassets */,
+				A75B653C2A9E419A00DB725E /* Views */,
+				A75B65372A9CFED000DB725E /* Models */,
 				A77178532A954180008A2535 /* Preview Content */,
 			);
 			path = SmashApp;
@@ -62,6 +101,7 @@
 		A77178532A954180008A2535 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				A77178512A954180008A2535 /* Assets.xcassets */,
 				A77178542A954180008A2535 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -138,7 +178,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77178502A95417D008A2535 /* ContentView.swift in Sources */,
+				A78EF31F2AA9488C00CBE686 /* UltimateProfile.swift in Sources */,
+				A7B5799F2AB626000063F2AF /* ProfileView.swift in Sources */,
+				A78EF31D2AA9463E00CBE686 /* Profile.swift in Sources */,
+				A75B65392A9CFED000DB725E /* GameData.swift in Sources */,
+				A771785C2A9541BC008A2535 /* HomePage.swift in Sources */,
 				A771784E2A95417D008A2535 /* SmashAppApp.swift in Sources */,
+				A75B652F2A9CFB2600DB725E /* GameCardView.swift in Sources */,
+				A726204C2A982AFE000CA2E0 /* UltimateHome.swift in Sources */,
+				A75B653B2A9E40BF00DB725E /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
